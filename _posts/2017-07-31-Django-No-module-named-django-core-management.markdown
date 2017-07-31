@@ -2,6 +2,7 @@
 layout: post
 title: "Solutions to Django No module named django.core.management issue for general and Vagrant users"
 date:   2017-07-31 14:58:00 -0700
+categories: Django
 ---
 In Django, when running the file './manage.py', such as "./manage.py", you may experience the following error:
 {% highlight ruby %}
