@@ -30,6 +30,6 @@ Welcome to Ubuntu 14.04.5 LTS (GNU/Linux 3.13.0-108-generic x86_64)
 (env)vagrant@vagrant-ubuntu-trusty-64:/vagrant$ ls
 aspc     fixtures  log        media      requirements.txt  vagrant
 fabfile  LICENSE   manage.py  README.md  static            Vagrantfile
-{% endhighlight % }
+{% endhighlight %}
 
 You can then call './manage.py SOME_COMMAND'!
