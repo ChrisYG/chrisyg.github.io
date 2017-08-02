@@ -4,7 +4,7 @@ title: "Cannot deserialize the current JSON object when using PredictionIO batch
 date:   2017-08-01 14:43:00 -0700
 categories: Django
 ---
-Today I was working on getting the PredictionIO batch import to work on our BPM backend. At line {% highlight ruby %} return JsonConvert.DeserializeObject<T>(responseJson); {% endhighligh%}, an error occurred:
+Today I was working on getting the PredictionIO batch import to work on our BPM backend. At line {% highlight ruby %} return JsonConvert.DeserializeObject<T>(responseJson); {% endhighlight %}, an error occurred:
 
 {% highlight ruby %}
 Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'some type' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly. To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
